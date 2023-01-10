@@ -21,8 +21,8 @@ switch=False
 def send():
     global switch
 
-    message="ww 公式割と自由だね"
-    Account = 'arigataiari'
+    message="送信したいテキスト"
+    Account = 'TwitterのID(@以降）'
     print("送信成功" + message)
 
     switch = False
