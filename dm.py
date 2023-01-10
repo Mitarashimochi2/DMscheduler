@@ -15,16 +15,15 @@ auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
 
-switch=False
+
 
 def send():
-    global switch
 
     message="送信したいテキスト"
     Account = 'TwitterのID(@以降）'
     print("送信成功" + message)
 
-    switch = False
+
     # アカウントの内部IDを取得する
     inner_id = api.user_timeline(screen_name=Account, count=1, page=0)[0].user.id
     api.send_direct_message(recipient_id=inner_id,text=message)
