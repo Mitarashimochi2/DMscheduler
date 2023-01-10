@@ -6,10 +6,10 @@ import tweepy
 import random
 
 # 認証に必要なキーとトークン
-API_KEY = 'hFrFfBqCJ2SDqkx4nBvn8nYiP'
-API_SECRET = 'oDttfZzNWCo6lWC0QZRxc1eUEPMIIJOh4NhjR5rTdMD0Ma105i'
-ACCESS_TOKEN = '1261838378254741504-pmzVY4aflFnluIQOVIepJoKaJSm7Id'
-ACCESS_TOKEN_SECRET = 'aG1NdVTwVxTgDQHXrvIK6niTfV8M5ojrCTM9dbd2vaNRC'
+API_KEY = 'token'
+API_SECRET = 'token'
+ACCESS_TOKEN = 'token'
+ACCESS_TOKEN_SECRET = 'token'
 
 # APIの認証
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
