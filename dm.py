@@ -1,9 +1,8 @@
 
 import time
-import datetime
 import schedule
 import tweepy
-import random
+
 
 # 認証に必要なキーとトークン
 API_KEY = 'token'
