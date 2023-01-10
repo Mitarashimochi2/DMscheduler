@@ -29,8 +29,8 @@ def send():
     api.send_direct_message(recipient_id=inner_id,text=message)
 
     schedule.clear()
-
-schedule.every().day.at("21:53").do(send)
+#送信したい時刻
+schedule.every().day.at("07:00").do(send)
 
  
 while True:
